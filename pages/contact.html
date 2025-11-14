@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Start your DFY build | Built-For-You Solutions</title>
+<link rel="stylesheet" href="../styles/normalize.css"><link rel="stylesheet" href="../styles/main.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head><body>
+<header class="site-header"><div class="container header-inner">
+  <a class="brand" href="/"><span class="wordmark">Built-For-You Solutions</span></a>
+  <nav class="site-nav" aria-label="Primary"><ul>
+    <li><a href="/pages/services.html">Services</a></li>
+    <li><a href="/pages/about.html">About</a></li>
+  </ul></nav>
+</div></header>
+<main class="section-pad"><div class="container">
+  <h1>Start your DFY build</h1>
+  <form method="POST" class="card" style="background:#fff;padding:1rem;border-radius:1rem;border:1px solid rgba(0,0,0,.06)">
+    <label>Full name<input name="name" required style="display:block;width:100%;padding:.5rem;margin:.25rem 0 1rem"></label>
+    <label>Email<input type="email" name="email" required style="display:block;width:100%;padding:.5rem;margin:.25rem 0 1rem"></label>
+    <label>Company<input name="company" style="display:block;width:100%;padding:.5rem;margin:.25rem 0 1rem"></label>
+    <label>What do you need built?
+      <select name="service" required style="display:block;width:100%;padding:.5rem;margin:.25rem 0 1rem">
+        <option value="Shopify/Printify">Shopify/Printify</option>
+        <option value="AI automations">AI automations</option>
+        <option value="Chatbot">Chatbot</option>
+        <option value="Landing page">Landing page</option>
+        <option value="Content system">Content system</option>
+        <option value="Other">Other</option>
+      </select>
+    </label>
+    <label>Details<textarea name="message" rows="5" style="display:block;width:100%;padding:.5rem;margin:.25rem 0 1rem"></textarea></label>
+    <label><input type="checkbox" name="consent" required> I agree to the privacy policy.</label>
+    <button class="btn btn-primary" type="submit">Send</button>
+  </form>
+</div></main>
+<footer class="site-footer"><div class="container footer-inner"><p>&copy; <span id="year"></span> Built-For-You Solutions</p></div></footer>
+<script src="../scripts/main.js" defer></script>
+</body></html>
